@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+
+# Virtual environments
+venv/
+env/
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Credentials and tokens
+token.json
+
+# Temporary or generated data files
+*.log
+temp_*
+~$*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Note: client_secret.json and sample data MUST be included for deployment
+# If you need to keep them private, use Streamlit Secrets instead
